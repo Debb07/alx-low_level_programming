@@ -5,3 +5,4 @@ Compiles
 A C program
 Prints
 Prints size
+Generates assembly code
