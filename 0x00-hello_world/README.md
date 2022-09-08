@@ -4,3 +4,4 @@ Generates assembly code
 Compiles
 A C program
 Prints
+Prints size
