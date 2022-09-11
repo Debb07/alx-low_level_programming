@@ -1,1 +1,1 @@
-Assigns random number to a variable
+assign variable to random number
