@@ -10,6 +10,7 @@
 
 int main(void)
 {
+
 	char love;
 
 	for (love = 'a'; love <= 'z'; love ++)
