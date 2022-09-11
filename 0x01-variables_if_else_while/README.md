@@ -5,3 +5,4 @@ Prints all single digits
 Prints all single digits of base 10
 Prints lowercase alphabets in reverse
 Prints all numbers of base 16 in lowercase
+Prints all possible combinations of single-digit numbers
