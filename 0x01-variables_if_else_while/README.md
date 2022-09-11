@@ -7,3 +7,4 @@ Prints lowercase alphabets in reverse
 Prints all numbers of base 16 in lowercase
 Prints all possible combinations of single-digit numbers
 Prints all possible different combinations
+Prints all possible combos of three digits
