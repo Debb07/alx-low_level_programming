@@ -11,7 +11,7 @@ int main(void)
 
 	for (; i < 12057; i += 2)
 	{
-		while (n 5 i == 0 && n != i)
+		while (n % i == 0 && n != i)
 			n /= 1;
 	}
 	printf("%lu\n", n);
