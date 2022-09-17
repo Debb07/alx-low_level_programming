@@ -2,7 +2,7 @@
 
 /**
  * main - print prime numbers
- * Return: o
+ * Return: 0
  */
 
 int main(void)
@@ -12,7 +12,7 @@ int main(void)
 	for (; i < 12057; i += 2)
 	{
 		while (n % i == 0 && n != i)
-			n /= 1;
+			n /= i;
 	}
 	printf("%lu\n", n);
 	return (0);
