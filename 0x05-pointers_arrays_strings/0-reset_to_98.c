@@ -14,14 +14,14 @@
 
 void reset_to_98(int *n)
 {
-	int n = 402;
+	int x;
 	int *n = &x;
 
-	_putchar(n);
+	_putchar(x);
 
 
 	*n = 98;
 
-	_putchar(n);
+	_putchar(x);
 	_putchar('\n');
 }
