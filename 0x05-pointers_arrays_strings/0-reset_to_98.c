@@ -1,25 +1,16 @@
 #include "main.h"
 
 /**
- * reset_to_98 - updates the value of x to 98
+ * reset_to_98 - takes in an integer as a parameter
  *
- * Description: Prints out two values for x, the initial value and
- * the updated value
+ * Description: Prints the value of n
  *
  * Return: Nothing
  */
 
 void reset_to_98(int *n)
 {
-	int n;
-	int *ip;
-
-	ip = &n;
-
-	_putchar(n);
-
-
-	*ip = 98;
+	*n = 98;
 
 	_putchar(n);
 	_putchar('\n');
