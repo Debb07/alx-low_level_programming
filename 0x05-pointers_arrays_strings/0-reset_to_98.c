@@ -6,9 +6,6 @@
  * Description: Prints out two values for x, the initial value and
  * the updated value
  *
- * @x: first parameter
- * @*n: pointer to variable x
- *
  * Return: Nothing
  */
 
@@ -17,10 +14,9 @@ void reset_to_98(int *n)
 	int x;
 	int *n;
 
-	n = &x;
-
 	_putchar(x);
 
+	n = &x;
 
 	*n = 98;
 
