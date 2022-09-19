@@ -11,15 +11,16 @@
 
 void reset_to_98(int *n)
 {
-	int x;
 	int *n;
+	int *ip;
 
-	_putchar(x);
+	ip = &(*n);
 
-	n = &x;
+	_putchar((*n));
 
-	*n = 98;
 
-	_putchar(x);
+	*ip = 98;
+
+	_putchar((*n));
 	_putchar('\n');
 }
