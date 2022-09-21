@@ -12,10 +12,9 @@ char *cap_string(char *s)
 	int count;
 
 /* scan through string */
-
 	count = 0;
 	while (s[count] != '\0')
-	{/* if next character after count is a char, capitalize it */
+	{/* if next character after count is a char , capitalize it */
 		if (s[0] >= 97 && s[0] <= 122)
 		{
 			s[0] = s[0] - 32;
