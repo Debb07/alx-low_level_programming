@@ -1,24 +1,22 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
  * swap_int - swaps the value of two integers
  *
- * @a - first parameter
- * @b - second parameter
+ * @a - pointer dereference for changing the values
+ * @b - pointer derefernce for changing the values
+ * int c: assigning the address of the swapped values
  *
  * Description: swaps two numbers
  *
- * Return: Nothing
+ * Return: 0 (success)
  */
 
 void swap_int(int *a, int *b)
 {
-	int a;
-	int b;
-	int *p;
-	int *r;
-
-	p = &b;
-	r = &a;
+	int c = *a;
+	*a = *b;
+	*b = c;
 }
 
