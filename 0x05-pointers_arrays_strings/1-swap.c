@@ -2,13 +2,11 @@
 #include "main.h"
 
 /**
- * swap_int - swaps the value of two integers
+ * swap_int - this function swaps the value of two integers
  *
- * @a - pointer dereference for changing the values
- * @b - pointer derefernce for changing the values
- * int c: assigning the address of the swapped values
- *
- * Description: swaps two numbers
+ * @a - pointer dereference for changing the value of the variable a
+ * @b - pointer derefernce for changing the value of the variable b
+ * int c: assigning the address of the variable a to c
  *
  * Return: 0 (success)
  */
